@@ -1,4 +1,4 @@
-(defproject mastodonc/joplin.dynamodb "0.3.10-SNAPSHOT"
+(defproject kixi/joplin.dynamodb "0.3.10-SNAPSHOT"
   :description "AWS Dynamodb support for Joplin"
   :url "http://github.com/juxt/joplin"
   :scm {:name "git"

@@ -1,4 +1,4 @@
-(defproject mastodonc/joplin "0.3.10-SNAPSHOT"
+(defproject kixi/joplin "0.3.10-SNAPSHOT"
   :description "Flexible datastore migration and seeding"
   :url "http://github.com/juxt/joplin"
   :scm {:name "git"
