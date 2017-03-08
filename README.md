@@ -1,3 +1,6 @@
+This branch is for MastodonC's changes. It's kept separate from `master` for the purposes of feeding back patches and PRs to the original author.
+-------
+
 # Joplin
 
 *Joplin 0.3 contains many breaking changes over the 0.2 releases*, please [see here for details](https://github.com/juxt/joplin/wiki/Differences-between-0.2-and-0.3).
