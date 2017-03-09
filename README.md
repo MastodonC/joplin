@@ -22,25 +22,26 @@ Joplin is built on top of [ragtime](https://github.com/weavejester/ragtime).
 * joplin.hive - migrate and seed [Hive](https://hive.apache.org) tables using Avro
 * joplin.jdbc - migrate and seed SQL databases with jdbc
 * joplin.zookeeper - seed [Zookeeper](http://zookeeper.apache.org) clusters
+* [clj-rethinkdb-migrations](https://github.com/apa512/clj-rethinkdb-migrations) - migrate and seed [RethinkDB](https://www.rethinkdb.com/) clusters
 
 ## Installation
 
 Add joplin.core as a dependency if you just want the database-independent core:
 
 ```clojure
-:dependencies [[joplin.core "0.3.9"]]
+:dependencies [[joplin.core "0.3.10"]]
 ```
 
 If you are not using Leiningen, add a dependency for the plugins of the databases you want to migrate;
 
 ```clojure
-:dependencies [[joplin.cassandra "0.3.9"]
-               [joplin.dynamodb "0.3.9"]
-               [joplin.datomic "0.3.9"]
-               [joplin.elasticsearch "0.3.9"]
-               [joplin.hive "0.3.9"]
-               [joplin.jdbc "0.3.9"]
-               [joplin.zookeeper "0.3.9"]]
+:dependencies [[joplin.cassandra "0.3.10"]
+               [joplin.dynamodb "0.3.10"]
+               [joplin.datomic "0.3.10"]
+               [joplin.elasticsearch "0.3.10"]
+               [joplin.hive "0.3.10"]
+               [joplin.jdbc "0.3.10"]
+               [joplin.zookeeper "0.3.10"]]
 ```
 
 ## Using Joplin
